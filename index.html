@@ -15,6 +15,7 @@
     <link rel="shortcut icon" href="./Images/Icon.png" type="image/x-icon">
     <link rel="stylesheet" href="./style-2.css">
     <link rel="stylesheet" href="style-3.css">
+    <link rel="stylesheet" href="style-4.css">
 </head>
 
 <body>
@@ -199,64 +200,192 @@
     </div>
 
     <div class="conatainer-3">
-            <h3>Shopping Cart</h3>
+        <h3>Shopping Cart</h3>
 
-            <div class="cart-container">
+        <div class="cart-container">
 
-                <!-- Left Side -->
-                <section class="tabledescription">
+            <!-- Left Side -->
+            <section class="tabledescription">
 
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Product</th>
-                                <th>Quantity</th>
-                                <th>Price</th>
-                                <th></th>
-                            </tr>
-                        </thead>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
 
-                        <tbody>
-                            <tr>
-                                <td>Seven By M.S. Dhoni White Shoes</td>
-                                <td>
-                                    <button>-</button>
-                                    <span>1</span>
-                                    <button>+</button>
-                                </td>
-                                <td>₹4,999</td>
-                                <td><span class="delete">×</span></td>
-                            </tr>
+                    <tbody>
+                        <tr>
+                            <td>Seven By M.S. Dhoni White Shoes</td>
+                            <td>
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </td>
+                            <td>₹4,999</td>
+                            <td><span class="delete">×</span></td>
+                        </tr>
 
-                            <tr>
-                                <td>Seven By M.S. Dhoni White Shoes</td>
-                                <td>
-                                    <button>-</button>
-                                    <span>1</span>
-                                    <button>+</button>
-                                </td>
-                                <td>₹4,999</td>
-                                <td><span class="delete">×</span></td>
-                            </tr>
+                        <tr>
+                            <td>Seven By M.S. Dhoni White Shoes</td>
+                            <td>
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </td>
+                            <td>₹4,999</td>
+                            <td><span class="delete">×</span></td>
+                        </tr>
 
-                            <tr>
-                                <td>Seven By M.S. Dhoni White Shoes</td>
-                                <td>
-                                    <button>-</button>
-                                    <span>1</span>
-                                    <button>+</button>
-                                </td>
-                                <td>₹4,999</td>
-                                <td><span class="delete">×</span></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                        <tr>
+                            <td>Seven By M.S. Dhoni White Shoes</td>
+                            <td>
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </td>
+                            <td>₹4,999</td>
+                            <td><span class="delete">×</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </section>
+
+            <!-- Right Side -->
+            <section class="billdescription">
+
+                <div class="coupon">
+                    <p>Enter Coupon Code</p>
+
+                    <div class="coupon-box">
+                        <input type="text" placeholder="COUPON CODE">
+                        <button>Apply Coupon</button>
+                    </div>
+
+                    <div class="bill-row">
+                        <span>Sub Total</span>
+                        <span>₹4,700</span>
+                    </div>
+
+                    <div class="bill-row">
+                        <span>Taxes (if applicable)</span>
+                        <span>₹199</span>
+                    </div>
+
+                    <div class="bill-row">
+                        <span>Discount</span>
+                        <span>₹0</span>
+                    </div>
+
+                    <div class="bill-row total">
+                        <span>Total</span>
+                        <span>₹4,999</span>
+                    </div>
+
+                </div>
+
+                <button class="pay-btn">
+                    Pay Now ₹4,999
+                </button>
+
+                <div class="payment-icons">
+                    <img src="Images/securepay.png" alt="">
+                    <img src="Images/razoepay.png" alt="">
+                    <img src="Images/paymentmethod.png" alt="">
+                </div>
+
+            </section>
+
+        </div>
+    </div>
+
+
+    <div class="container-4">
+
+        <h3>Contact Details</h3>
+        <br>    
+
+        <section class="cart-container">
+            <section class="left-section">
+                <section class="payment-box">
+                    
+                    <h3 class="payment-heading">Payment</h3>
+                    <section class="contact-details">
+                        <label>Email ID</label>
+                        <input type="email" placeholder="abc@gmail.com">
+                    </section>
+
+                
+                    <div class="payment-methods">
+
+                        <button class="payment-btn active">
+                            <i class="fa-regular fa-credit-card"></i>
+                            <span>Card</span>
+                        </button>
+
+                        <button class="payment-btn">
+                            <i class="fa-solid fa-bitcoin-sign"></i>
+                            <span>Crypto</span>
+                        </button>
+
+                        <button class="payment-btn">
+                            <i class="fa-solid fa-building-columns"></i>
+                            <span>Bank</span>
+                        </button>
+
+                        <button class="payment-btn">
+                            <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </button>
+
+                    </div>
+                    <div class="input-group">
+                        <label>Card Number</label>
+                        <input type="text" placeholder="Enter the name here..">
+                    </div>
+                    <div class="row">
+
+                        <div class="input-group">
+                            <label>Expiry</label>
+                            <input type="text" placeholder="MM/YY">
+                        </div>
+
+                        <div class="input-group">
+                            <label>CVC</label>
+                            <input type="password" placeholder="••••">
+                        </div>
+
+                    </div>
+                    <div class="row">
+
+                        <div class="input-group">
+                            <label>Country</label>
+
+                            <select>
+                                <option>India</option>
+                                <option>USA</option>
+                                <option>UK</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label>ZIP</label>
+                            <input type="text" placeholder="XXXXX">
+                        </div>
+
+                    </div>
 
                 </section>
+            </section>
 
-                <!-- Right Side -->
+            
+            <section class="right-section">
                 <section class="billdescription">
 
+                    <h3>Order Summary</h3>
                     <div class="coupon">
                         <p>Enter Coupon Code</p>
 
@@ -298,10 +427,12 @@
                     </div>
 
                 </section>
+            </section>
+        </section>
 
-            </div>
+
+
     </div>
-
 </body>
 
 </html>
