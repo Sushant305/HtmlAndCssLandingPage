@@ -1,11 +1,194 @@
-.container-3 {
-        width: 100%;
-        height: 85vh;
+.conatainer-3 {
+    width: 100%;
+    height: 85vh;
 
-        display: flex;
-        gap: 40px;
-        background:
 
-            linear-gradient(to right, #22130d, #140d0a);
-        padding: 30px;
-    }
+    gap: 40px;
+    background:
+
+        linear-gradient(to right, #22130d, #140d0a);
+    padding: 30px;
+}
+
+.conatainer-3 h3 {
+    font-size: 42px;
+    color: #f9f6f6;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 0px 30px;
+}
+
+/* LEFT SECTION */
+
+.tabledescription {
+    flex: 2;
+    width: 360px;
+}
+
+.billdescription {
+    width: 360px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody td button {
+    width: 28px;
+    height: 28px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    color: #e5e5e5;
+    font-weight: 600;
+}
+
+tbody td span {
+    margin: 0 8px;
+    font-weight: 500;
+}
+
+thead tr {
+    border-bottom: 1px solid #b8b6b6;
+}
+
+thead th {
+    text-align: left;
+    color: #fffcfc;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 18px 0;
+}
+
+tbody tr {
+    border-bottom: 1px solid #8989899f;
+}
+
+tbody td {
+    padding: 25px 0;
+    color: #c4c4c4;
+    font-size: 15px;
+}
+
+
+.delete {
+    color: #ff0000;
+    font-size: 24px;
+}
+
+/* BILL CARD*/
+
+.coupon {
+    background: #fff;
+    border: 1px solid #ececec;
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .05);
+}
+
+.coupon p {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Coupon */
+
+.coupon-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.coupon-box input {
+    flex: 1;
+    height: 45px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 0 15px;
+    outline: none;
+    font-size: 14px;
+}
+
+.coupon-box input:focus {
+    border-color: #2d79ff;
+}
+
+.coupon-box button {
+    width: 120px;
+    border: none;
+    background: #2d79ff;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.coupon-box button:hover {
+    background: #165fe4;
+}
+
+/* Bill Rows */
+
+.bill-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    color: #777;
+    font-size: 15px;
+}
+
+.total {
+    margin-top: 20px;
+    padding-top: 18px;
+    border-top: 1px solid #eee;
+    font-size: 22px;
+    font-weight: 700;
+    color: #222;
+}
+
+/* PAY BUTTON*/
+
+.pay-btn {
+    width: 100%;
+    height: 60px;
+    margin-top: 28px;
+    border: 1px solid salmon;
+    border-radius: 15px;
+    background: #ff9d2d;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 8px 18px rgba(255, 157, 45, 0.241);
+}
+
+
+/*PAYMENT ICONS*/
+
+.payment-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.payment-icons img {
+    width: 81px;
+    height: 57px;
+    border-radius: 13px;
+    object-fit: contain;
+    background-color: #ff8800;
+    padding: 5px;
+}
