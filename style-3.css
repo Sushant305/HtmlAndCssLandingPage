@@ -1,0 +1,11 @@
+.container-3 {
+        width: 100%;
+        height: 85vh;
+
+        display: flex;
+        gap: 40px;
+        background:
+
+            linear-gradient(to right, #22130d, #140d0a);
+        padding: 30px;
+    }

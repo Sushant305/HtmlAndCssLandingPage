@@ -1,0 +1,144 @@
+    /* next Page styling  */
+    .container-2 {
+        width: 100%;
+        height: 85vh;
+
+        display: flex;
+        gap: 40px;
+        background:
+
+            linear-gradient(to right, #22130d, #140d0a);
+        padding: 30px;
+    }
+
+    /* LEFT SIDE */
+
+    .left-section {
+        width: 45%;
+    }
+
+    .MainShoes {
+        width: 100%;
+        height: 420px;
+        background: #fafafa00;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ececec;
+    }
+
+    .MainShoes img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        background: transparent;
+    }
+
+    .allsideimages {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .allsideimages img {
+        width: 123px;
+        height: 127px;
+        background: #fafafa00;
+        border-radius: 10px;
+        object-fit: contain;
+        cursor: pointer;
+        transition: .3s;
+        padding: 5px;
+        border: 1px solid wheat;
+    }
+
+    .allsideimages img:hover {
+        border-color: #ff8800;
+        transform: translateY(-5px);
+    }
+
+    /* RIGHT SIDE */
+
+    .desccriptionimage {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .desccriptionimage h1 {
+        font-size: 40px;
+        line-height: 50px;
+        color: #ffffff;
+    }
+
+    .description {
+        margin: 15px 0;
+        color: #979797;
+        line-height: 28px;
+        font-size: 17px;
+    }
+
+    .price-box {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin: 20px 0;
+    }
+
+    .price-box h2 {
+        height: 53px;
+        width: 174px;
+        text-align: center;
+        border-radius: 17px;
+        color: #ffffff;
+        font-size: 45px;
+        background-color: rgba(92, 2, 2, 0.612);
+        box-shadow: 2px 2px 11px 0px #808080c7;
+    }
+
+    .price-box span {
+        color: #d7d7d7;
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .tax {
+        color: #888;
+        margin-bottom: 35px;
+    }
+
+    .cart-section {
+        display: flex;
+        gap: 20px;
+    }
+
+    .cart-section select {
+        width: 90px;
+        height: 60px;
+        border: none;
+        background: #f4f4f4;
+        border-radius: 12px;
+        font-size: 20px;
+        padding-left: 20px;
+        cursor: pointer;
+    }
+
+    .cart-section button {
+        flex: 1;
+        height: 60px;
+        border: none;
+        background: #ff8800;
+        color: #fff;
+        border-radius: 12px;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    .cart-section button:hover {
+        background: #ff6a00;
+        transform: scale(1.03);
+    }
